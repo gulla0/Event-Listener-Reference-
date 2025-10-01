@@ -54,9 +54,3 @@ function MyComp() {
 
 - 👉 **If React can see the event in JSX, _no_ `useEffect`.**
 - 👉 **If the event is outside React’s world (global objects, external APIs, timers), _always_ use `useEffect` with cleanup.**
-
----
-
-## 💡 Want More?
-
-Would you like to see how to wrap this pattern into a custom hook (like `useWindowResize`) so you never repeat this boilerplate again?
